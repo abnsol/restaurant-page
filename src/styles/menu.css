@@ -1,0 +1,39 @@
+*,*::before,*::after{
+    box-sizing: border-box;
+    padding: 0;
+}
+
+#menuGrid{
+    background-color: rgb(116, 153, 116);
+    font-family: 'Amatic sc';
+    font-weight: 900;
+    font-size: 1.5rem;
+    padding: 100px 0px;
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    gap: 70px;
+    align-content: center;
+    justify-items: center;
+    color: white;
+
+    .grids{
+        display: grid;
+        gap: 10px;
+    }
+
+    .menu-grid,div{
+        width: 300px;
+    }
+
+    .menu-grid{
+        height:400px; 
+        border-radius:10px;
+        color: white;
+    }
+
+    .menu-grid:hover{
+        opacity: 0.8;
+        cursor: pointer;
+    }
+}
+
