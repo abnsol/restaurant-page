@@ -1,0 +1,63 @@
+*,*::before,*::after{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.home{
+    font-family: "Amatic sc";
+    height: 100vh;
+    object-fit: contain;
+    background:rgba(0,0,0,1) url(../images/background.jpeg) center/100% no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    div{
+        background-color: rgba(0, 0, 0, 0.3);
+        font-size: 5rem;
+        font-weight: 800;
+        color: white;
+        border: none;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+    }
+
+    #welcome{
+        font-family: "Qwitcher Grypen", cursive;
+        font-size: 4rem;
+        font-weight: 700;
+        color:  rgb(230, 199, 27);
+    }
+}
+
+.discover{
+    display: flex;
+    padding: 100px 50px;
+    gap: 30px;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 1.2rem;
+    font-weight: 800;
+
+    #pic{
+        min-width: 300px;
+        min-height: 300px;
+        background:url(../images/discover.jpeg) center/cover no-repeat;
+        border-radius: 20px;
+    }
+
+    div{
+        font-family: "Nerko One", cursive;
+        font-weight: 100;
+        font-style: normal;
+        flex: 1;
+        box-shadow: 0 0 5px rgb(177, 177, 177);
+        padding: 20px;
+        border-radius: 20px;
+    }
+}
+
+
+
