@@ -1,5 +1,6 @@
 import {domLoad} from "./homeDom.js";
 import { menuDomLoad } from "./menuDom.js";
+import { contactDomLoad } from "./Contact.js";
 import "../styles/index.css";
 
 

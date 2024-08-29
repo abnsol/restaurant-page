@@ -10,13 +10,15 @@ export function domLoad(){
     home.setAttribute("class","home");
 
     const logoBackground = document.createElement("div");
+    logoBackground.setAttribute("id","logoBackground");
 
     const welcome = document.createElement("div");
     welcome.textContent = "Welcome to";
     welcome.setAttribute("id","welcome");
 
     const logo = document.createElement("div");
-    logo.textContent = "WAKANDA RESTAURANT";
+    logo.textContent = "THE ETHIOPIAN RESTAURANT";
+    
     logoBackground.appendChild(welcome);
     logoBackground.appendChild(logo);
 
