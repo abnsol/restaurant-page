@@ -1,0 +1,23 @@
+#contactContainer{
+    font-family: "Concert One";
+    font-size: 1.5rem;
+    /* font-weight: 700; */
+    background-color: rgb(116, 153, 116);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:30px;
+    padding: 80px;
+    min-height: 88.2vh;
+
+    div{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+        gap:30px;
+        text-align: left;
+    }
+}

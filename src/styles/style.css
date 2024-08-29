@@ -13,7 +13,6 @@
     align-items: center;
 
     div{
-        background-color: rgba(0, 0, 0, 0.3);
         font-size: 5rem;
         font-weight: 800;
         color: white;
@@ -22,6 +21,10 @@
         display: flex;
         flex-direction: column;
         align-items:center;
+    }
+
+    #logoBackground{
+        background-color: rgba(0, 0, 0, 0.3);
     }
 
     #welcome{
@@ -53,7 +56,7 @@
         font-weight: 100;
         font-style: normal;
         flex: 1;
-        box-shadow: 0 0 5px rgb(177, 177, 177);
+        /* box-shadow: 0 0 5px rgb(177, 177, 177); */
         padding: 20px;
         border-radius: 20px;
     }
